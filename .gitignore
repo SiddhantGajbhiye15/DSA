@@ -1,0 +1,18 @@
+# VS Code settings
+.vscode/
+
+# Windows executables
+*.exe
+
+# Linux/macOS executables
+*.out
+
+# Object files
+*.o
+*.obj
+
+# Debug files
+*.pdb
+
+# Temporary files
+*.tmp
