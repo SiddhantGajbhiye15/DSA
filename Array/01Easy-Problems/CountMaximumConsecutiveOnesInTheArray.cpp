@@ -30,7 +30,7 @@ int CountMaxConsecutiveOnes(int arr[], int n)
 
 int main()
 {
-  int arr1[] = {1, 1, 1, 1, 1};
+  int arr1[] = {1, 1, 1, 1, 1,5, 1, 1, 0, 1, 1, 1};
 
   int n = sizeof(arr1) / sizeof(arr1[0]);
 
