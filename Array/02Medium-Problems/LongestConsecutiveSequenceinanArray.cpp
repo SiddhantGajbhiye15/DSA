@@ -3,7 +3,7 @@ using namespace std;
 int main()
 {
   vector<int> arr = {100, 4, 200, 3, 2, 1};
-
+  int n = arr.size();
   // Initialize the longest sequence length
   int longest = 1;
   unordered_set<int> st;
@@ -11,7 +11,7 @@ int main()
   // Put all the array elements into the set
   for (int i = 0; i < n; i++)
   {
-    st.insert(a[i]);
+    st.insert(arr[i]);
   }
 
   /* Traverse the set to
